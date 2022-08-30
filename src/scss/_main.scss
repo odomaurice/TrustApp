@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8rem 4rem;
+  background-color: $white;
+  border-bottom: 1px solid $gray-600;
+
+  &__logo {
+    font-family: $font-main;
+    font-size: $heading-secondary-size;
+    font-weight: 600;
+    color: $blue-900;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    column-gap: 2rem;
+
+    &__item {
+      text-transform: capitalize;
+
+      &__link {
+        @extend %link;
+        font-size: $default-font-size;
+        color: $blue-700;
+      }
+    }
+  }
+}

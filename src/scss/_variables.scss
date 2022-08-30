@@ -1,6 +1,36 @@
+// font-size
 $default-font-size: 1.6rem;
+$heading-main-size: 4.8rem;
+$heading-secondary-size: 3.6rem;
 
 // colors
-// TODO: set colors
+// main color
+$blue-900: #1864ab;
+$blue-700: #1c7ed6;
+$blue-500: #339af0;
+$blue-300: #74c0fc;
+$blue-100: #d0ebff;
+
+// secondary color
+$violet-900: #5f3dc4;
+$violet-700: #7048e8;
+$violet-500: #845ef7;
+$violet-300: #b197fc;
+$violet-100: #e5dbff;
+
+// gray
+$gray-900: #212529;
+$gray-600: #868e96;
+$gray-400: #ced4da;
+$gray-100: #f1f3f5;
+
+// white
+$white: #ffffff;
+// black*
+
+// font-family
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
+$font-main: 'Nunito', sans-serif;
+$font-secondary: 'Lora', serif;
 
 // responsiveness

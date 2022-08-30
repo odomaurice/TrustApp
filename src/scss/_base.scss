@@ -9,4 +9,18 @@ html {
 
 body {
   box-sizing: border-box;
+  font-family: $font-main;
+  line-height: 1.6;
+}
+
+a {
+  &,
+  &:link {
+    @extend %link;
+
+    &:hover {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
 }

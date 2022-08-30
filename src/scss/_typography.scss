@@ -1,0 +1,32 @@
+%heading {
+  font-weight: 400;
+  font-family: $font-main;
+
+  &__sub {
+    font-family: $font-secondary;
+    font-weight: 500;
+  }
+}
+
+%link {
+  font-weight: 400;
+  font-family: $font-secondary;
+  text-decoration: none;
+}
+
+.heading {
+  &__main {
+    @extend %heading;
+    font-size: $heading-main-size;
+  }
+
+  &__sub {
+    @extend %heading__sub;
+    font-size: $default-font-size;
+  }
+
+  &__secondary {
+    @extend %heading;
+    font-size: $heading-secondary-size;
+  }
+}
